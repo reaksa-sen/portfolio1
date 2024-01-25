@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply dark:bg-gray-800 bg-white;
+  }
+}
+
+.rtl-grid {
+  direction: ltr;
+}
+@media (max-width: 768px) {
+  .rtl-grid {
+    direction: rtl;
+  }
+}
+
+@layer base {
+  .violet-gradient {
+    @apply bg-gradient-to-b from-transparent dark:to-gray-500 to-gray-300;
+  }
+}
+
+.img {
+  filter: invert(30%) sepia(7%) saturate(1806%) hue-rotate(176deg)
+    brightness(97%) contrast(85%);
+}
+
+.img:hover {
+  filter: none;
+}
