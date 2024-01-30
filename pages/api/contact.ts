@@ -9,9 +9,10 @@ const getConfig = (body: any) => {
   return {
     baseURL: "https://api.telegram.org",
     params: {
-      text: `request: ${body.data.text}`,
+      text: `<b>&#x1F60D; Request</b>: ${body.data.text}`,
       chat_id: CHAT_ID,
-      user_id:USER_ID
+      user_id:USER_ID,
+      parse_mode: 'HTML'
     },
   };
 };
