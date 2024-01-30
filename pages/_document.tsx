@@ -11,3 +11,10 @@ export default function Document() {
     </Html>
   )
 }
+
+// {
+//   "position": "BACKEND DEVELOPER",
+//   "company": "MANTISY",
+//   "date": "Jul 2023 – Present",
+//   "details": "Utilizing TailwindCSS, Nuxt JS, and Nest JS, create back-offices to manage mobile applications. Recently, merely try to keep up with server-side applications."
+// }

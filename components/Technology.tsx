@@ -13,11 +13,11 @@ const Technology = () => {
       </div>
 
       <div className=" flex justify-center">
-        <div className="flex justify-center gap-x-8 gap-y-2 w-[500px] flex-wrap ">
+        <div className="flex justify-center gap-x-8 gap-y-2 w-[500px] flex-wrap">
           <svg
             role="img"
             viewBox="0 0 24 24"
-            className="w-10 h-10 dark:fill-white"
+            className="w-10 h-10"
             fill="#61DAFB"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -28,7 +28,7 @@ const Technology = () => {
           <svg
             role="img"
             viewBox="0 0 24 28"
-            className="w-10 h-10 dark:fill-white"
+            className="w-10 h-10"
             xmlns="http://www.w3.org/2000/svg"
           >
             <title>Next.js</title>
@@ -38,7 +38,7 @@ const Technology = () => {
           <svg
             role="img"
             viewBox="0 0 24 24"
-            className="w-10 h-10 dark:fill-white"
+            className="w-10 h-10"
             fill="#6DB33F"
             xmlns="http://www.w3.org/2000/svg"
           >
