@@ -3,6 +3,7 @@ import { NextApiRequest, NextApiResponse } from "next/types";
 
 const BOT_TOKEN = process.env.NEXT_TELEGRAM_TOKEN;
 const CHAT_ID = process.env.NEXT_CHAT_ID;
+const USER_ID = process.env.NEXT_USER_ID;
 
 const getConfig = (body: any) => {
   return {
@@ -10,6 +11,7 @@ const getConfig = (body: any) => {
     params: {
       text: `Text: ${body.data.text}`,
       chat_id: CHAT_ID,
+      user_id:USER_ID
     },
   };
 };
