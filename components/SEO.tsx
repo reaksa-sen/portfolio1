@@ -28,7 +28,7 @@ export const SEO: React.FC<Props> = ({
 
   const myTitle = title || defaultTitle; // `${title} | ${defaultTitle}`
 
-  const myKeyword = keyWords || "KruyTharin Portfolio";
+  const myKeyword = keyWords || "Reaksa Portfolio";
   return (
     <>
       <NextSeo
@@ -63,7 +63,7 @@ export const SEO: React.FC<Props> = ({
       <Head>
         <meta name="googlebot" content="index,follow" />
         <meta name="facebook-domain-verification" content={facebookAppId} />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/me.png" />
       </Head>
     </>
   );
