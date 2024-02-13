@@ -46,7 +46,7 @@ const Contact = () => {
         <div className="mx-auto my-auto w-full sm:w-full md:w-full lg:w-3/4 xl:w-3/4">
           <form id="myForm" onSubmit={onSubmit} className="flex flex-row">
             <input
-              className="h-16 bg-gray-100 border border-gray-100 dark:bg-transparent dark:border-gray-500 dark:border-r-0 rounded-r-none rounded-md  w-full py-1 px-3 outline-none text-gray-500 placeholder-current"
+              className="h-16 bg-gray-100 border border-gray-200 dark:bg-transparent dark:border-gray-500 dark:border-r-0 rounded-r-none rounded-md  w-full py-1 px-3 outline-none text-gray-500 placeholder-current"
               onChange={() => {
                 setData({ ...data, text: (event?.target as any).value });
               }}
@@ -54,7 +54,7 @@ const Contact = () => {
               placeholder="Say hi to me!"
               required
             />
-            <span className="flex items-center bg-gray-100 dark:bg-transparent dark:border-l-0 dark:border rounded rounded-l-none px-3 font-bold text-grey-100 dark:border-gray-500">
+            <span className="flex items-center bg-gray-100 dark:bg-transparent dark:border-l dark:border border rounded rounded-l-none px-3 font-bold text-grey-100 dark:border-gray-500">
               <button
                 type="submit"
                 className="p-1 text-lg"

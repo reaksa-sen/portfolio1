@@ -57,7 +57,7 @@ const Experience = () => {
               ></div>
               <div
                 className={classNames(
-                  "hidden w-14 h-14 items-center justify-center bg-white dark:bg-gray-800 border rounded-full absolute right-[50%] translate-x-[50%] -bottom-16 hover:border-black duration-300 dark:hover:border-primary",
+                  "hidden w-14 h-14 items-center justify-center bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border rounded-full absolute right-[50%] translate-x-[50%] -bottom-16 hover:border-black duration-300 dark:hover:border-primary",
                   { " !flex": data.experience.length - 1 === idx }
                 )}
               >
